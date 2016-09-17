@@ -219,6 +219,6 @@ void detectAndDisplay( cv::Mat frame ) {
   }
   //-- Show what you got
   if (faces.size() > 0) {
-    findEyes(frame_gray, faces[0]);
+    findNose(frame_gray, faces[0]);
   }
 }
